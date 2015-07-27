@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5718F61D146C9BE00027D0B2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5718F61C146C9BE00027D0B2 /* AVFoundation.framework */; };
+		5718F623146CA1B50027D0B2 /* doh1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5718F622146CA1B50027D0B2 /* doh1.mp3 */; };
+		5718F625146CA5B50027D0B2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5718F624146CA5B50027D0B2 /* AudioToolbox.framework */; };
+		577BEA40146BCE3D00360149 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 577BEA3F146BCE3D00360149 /* 7.png */; };
+		5798DEDE146D9B7E0040657A /* fingerPrint.png in Resources */ = {isa = PBXBuildFile; fileRef = 5798DEDD146D9B7E0040657A /* fingerPrint.png */; };
+		5798DEE0146DBCEB0040657A /* bonusball1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5798DEDF146DBCEB0040657A /* bonusball1.png */; };
+		5798DEE3146DE5400040657A /* Cash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5798DEE2146DE5400040657A /* Cash.wav */; };
+		57BB6F351464378100D789A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BB6F341464378100D789A5 /* UIKit.framework */; };
+		57BB6F371464378100D789A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BB6F361464378100D789A5 /* Foundation.framework */; };
+		57BB6F391464378100D789A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BB6F381464378100D789A5 /* CoreGraphics.framework */; };
+		57BB6F3F1464378100D789A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57BB6F3D1464378100D789A5 /* InfoPlist.strings */; };
+		57BB6F411464378100D789A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BB6F401464378100D789A5 /* main.m */; };
+		57BB6F451464378100D789A5 /* PMercurioFinalProjectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BB6F441464378100D789A5 /* PMercurioFinalProjectAppDelegate.m */; };
+		57BB6F481464378100D789A5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57BB6F461464378100D789A5 /* MainWindow.xib */; };
+		57BB6F4E1464378100D789A5 /* PMercurioFinalProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57BB6F4C1464378100D789A5 /* PMercurioFinalProjectViewController.xib */; };
+		57BB6F561464378100D789A5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BB6F551464378100D789A5 /* SenTestingKit.framework */; };
+		57BB6F571464378100D789A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BB6F341464378100D789A5 /* UIKit.framework */; };
+		57BB6F581464378100D789A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BB6F361464378100D789A5 /* Foundation.framework */; };
+		57BB6F591464378100D789A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BB6F381464378100D789A5 /* CoreGraphics.framework */; };
+		57BB6F611464378100D789A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57BB6F5F1464378100D789A5 /* InfoPlist.strings */; };
+		57BB6F631464378100D789A5 /* PMercurioFinalProjectTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 57BB6F621464378100D789A5 /* PMercurioFinalProjectTests.h */; };
+		57BB6F651464378100D789A5 /* PMercurioFinalProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BB6F641464378100D789A5 /* PMercurioFinalProjectTests.m */; };
+		57BB6F6F146437E000D789A5 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BB6F6E146437E000D789A5 /* Splash.png */; };
+		57BB6F71146437F800D789A5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BB6F70146437F800D789A5 /* Default@2x.png */; };
+		57BB6F7714643A3B00D789A5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BB6F7614643A3B00D789A5 /* background.png */; };
+		57BB6F81146461F200D789A5 /* icon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BB6F80146461F200D789A5 /* icon_retina.png */; };
+		57BB6F831464620B00D789A5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BB6F821464620B00D789A5 /* icon.png */; };
+		57BB6F871464628D00D789A5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BB6F861464628D00D789A5 /* Default.png */; };
+		57D7C721146CF34B0040E7C1 /* PMercurioFinalProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BB6F4A1464378100D789A5 /* PMercurioFinalProjectViewController.m */; };
+		57F2523A148DBEDA00CD9507 /* bonusball2.png in Resources */ = {isa = PBXBuildFile; fileRef = 57F25239148DBEDA00CD9507 /* bonusball2.png */; };
+		57FBDC411467ADB900BCDEFF /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FBDC401467ADB900BCDEFF /* 1.png */; };
+		57FBDC471467B23300BCDEFF /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FBDC421467B23300BCDEFF /* 2.png */; };
+		57FBDC481467B23300BCDEFF /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FBDC431467B23300BCDEFF /* 3.png */; };
+		57FBDC491467B23300BCDEFF /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FBDC441467B23300BCDEFF /* 4.png */; };
+		57FBDC4A1467B23300BCDEFF /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FBDC451467B23300BCDEFF /* 5.png */; };
+		57FBDC4B1467B23300BCDEFF /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FBDC461467B23300BCDEFF /* 6.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57BB6F5A1464378100D789A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57BB6F271464378100D789A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57BB6F2F1464378100D789A5;
+			remoteInfo = PMercurioFinalProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5718F61C146C9BE00027D0B2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5718F622146CA1B50027D0B2 /* doh1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = doh1.mp3; path = Resources/doh1.mp3; sourceTree = SOURCE_ROOT; };
+		5718F624146CA5B50027D0B2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		577BEA3F146BCE3D00360149 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7.png; path = Resources/7.png; sourceTree = SOURCE_ROOT; };
+		5798DEDD146D9B7E0040657A /* fingerPrint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fingerPrint.png; path = Resources/fingerPrint.png; sourceTree = SOURCE_ROOT; };
+		5798DEDF146DBCEB0040657A /* bonusball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bonusball1.png; path = Resources/bonusball1.png; sourceTree = SOURCE_ROOT; };
+		5798DEE2146DE5400040657A /* Cash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Cash.wav; path = Resources/Cash.wav; sourceTree = SOURCE_ROOT; };
+		57BB6F301464378100D789A5 /* PMercurioFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PMercurioFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BB6F341464378100D789A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57BB6F361464378100D789A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57BB6F381464378100D789A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57BB6F3C1464378100D789A5 /* PMercurioFinalProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PMercurioFinalProject-Info.plist"; sourceTree = "<group>"; };
+		57BB6F3E1464378100D789A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57BB6F401464378100D789A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57BB6F421464378100D789A5 /* PMercurioFinalProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PMercurioFinalProject-Prefix.pch"; sourceTree = "<group>"; };
+		57BB6F431464378100D789A5 /* PMercurioFinalProjectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMercurioFinalProjectAppDelegate.h; sourceTree = "<group>"; };
+		57BB6F441464378100D789A5 /* PMercurioFinalProjectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMercurioFinalProjectAppDelegate.m; sourceTree = "<group>"; };
+		57BB6F471464378100D789A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		57BB6F491464378100D789A5 /* PMercurioFinalProjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMercurioFinalProjectViewController.h; sourceTree = "<group>"; };
+		57BB6F4A1464378100D789A5 /* PMercurioFinalProjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMercurioFinalProjectViewController.m; sourceTree = "<group>"; };
+		57BB6F4D1464378100D789A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PMercurioFinalProjectViewController.xib; sourceTree = "<group>"; };
+		57BB6F541464378100D789A5 /* PMercurioFinalProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMercurioFinalProjectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BB6F551464378100D789A5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		57BB6F5E1464378100D789A5 /* PMercurioFinalProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PMercurioFinalProjectTests-Info.plist"; sourceTree = "<group>"; };
+		57BB6F601464378100D789A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57BB6F621464378100D789A5 /* PMercurioFinalProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMercurioFinalProjectTests.h; sourceTree = "<group>"; };
+		57BB6F641464378100D789A5 /* PMercurioFinalProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMercurioFinalProjectTests.m; sourceTree = "<group>"; };
+		57BB6F6E146437E000D789A5 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Splash.png; path = Resources/Splash.png; sourceTree = SOURCE_ROOT; };
+		57BB6F70146437F800D789A5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		57BB6F7614643A3B00D789A5 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Resources/background.png; sourceTree = SOURCE_ROOT; };
+		57BB6F80146461F200D789A5 /* icon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_retina.png; sourceTree = SOURCE_ROOT; };
+		57BB6F821464620B00D789A5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = SOURCE_ROOT; };
+		57BB6F861464628D00D789A5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		57F25239148DBEDA00CD9507 /* bonusball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bonusball2.png; path = Resources/bonusball2.png; sourceTree = SOURCE_ROOT; };
+		57FBDC401467ADB900BCDEFF /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = Resources/1.png; sourceTree = SOURCE_ROOT; };
+		57FBDC421467B23300BCDEFF /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = Resources/2.png; sourceTree = SOURCE_ROOT; };
+		57FBDC431467B23300BCDEFF /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = Resources/3.png; sourceTree = SOURCE_ROOT; };
+		57FBDC441467B23300BCDEFF /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = Resources/4.png; sourceTree = SOURCE_ROOT; };
+		57FBDC451467B23300BCDEFF /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = Resources/5.png; sourceTree = SOURCE_ROOT; };
+		57FBDC461467B23300BCDEFF /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6.png; path = Resources/6.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57BB6F2D1464378100D789A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BB6F351464378100D789A5 /* UIKit.framework in Frameworks */,
+				57BB6F371464378100D789A5 /* Foundation.framework in Frameworks */,
+				57BB6F391464378100D789A5 /* CoreGraphics.framework in Frameworks */,
+				5718F61D146C9BE00027D0B2 /* AVFoundation.framework in Frameworks */,
+				5718F625146CA5B50027D0B2 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BB6F501464378100D789A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BB6F561464378100D789A5 /* SenTestingKit.framework in Frameworks */,
+				57BB6F571464378100D789A5 /* UIKit.framework in Frameworks */,
+				57BB6F581464378100D789A5 /* Foundation.framework in Frameworks */,
+				57BB6F591464378100D789A5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57BB6F251464378100D789A5 = {
+			isa = PBXGroup;
+			children = (
+				57BB6F861464628D00D789A5 /* Default.png */,
+				57BB6F70146437F800D789A5 /* Default@2x.png */,
+				57BB6F3A1464378100D789A5 /* PMercurioFinalProject */,
+				57BB6F5C1464378100D789A5 /* PMercurioFinalProjectTests */,
+				57BB6F331464378100D789A5 /* Frameworks */,
+				57BB6F311464378100D789A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57BB6F311464378100D789A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57BB6F301464378100D789A5 /* PMercurioFinalProject.app */,
+				57BB6F541464378100D789A5 /* PMercurioFinalProjectTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57BB6F331464378100D789A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5718F624146CA5B50027D0B2 /* AudioToolbox.framework */,
+				5718F61C146C9BE00027D0B2 /* AVFoundation.framework */,
+				57BB6F341464378100D789A5 /* UIKit.framework */,
+				57BB6F361464378100D789A5 /* Foundation.framework */,
+				57BB6F381464378100D789A5 /* CoreGraphics.framework */,
+				57BB6F551464378100D789A5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57BB6F3A1464378100D789A5 /* PMercurioFinalProject */ = {
+			isa = PBXGroup;
+			children = (
+				57BB6F431464378100D789A5 /* PMercurioFinalProjectAppDelegate.h */,
+				57BB6F441464378100D789A5 /* PMercurioFinalProjectAppDelegate.m */,
+				57BB6F461464378100D789A5 /* MainWindow.xib */,
+				57BB6F491464378100D789A5 /* PMercurioFinalProjectViewController.h */,
+				57BB6F4A1464378100D789A5 /* PMercurioFinalProjectViewController.m */,
+				57BB6F4C1464378100D789A5 /* PMercurioFinalProjectViewController.xib */,
+				57BB6F3B1464378100D789A5 /* Supporting Files */,
+			);
+			path = PMercurioFinalProject;
+			sourceTree = "<group>";
+		};
+		57BB6F3B1464378100D789A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5798DEDD146D9B7E0040657A /* fingerPrint.png */,
+				5798DEE2146DE5400040657A /* Cash.wav */,
+				5718F622146CA1B50027D0B2 /* doh1.mp3 */,
+				57BB6F80146461F200D789A5 /* icon_retina.png */,
+				57BB6F821464620B00D789A5 /* icon.png */,
+				57FBDC401467ADB900BCDEFF /* 1.png */,
+				57FBDC421467B23300BCDEFF /* 2.png */,
+				57FBDC431467B23300BCDEFF /* 3.png */,
+				57FBDC441467B23300BCDEFF /* 4.png */,
+				57FBDC451467B23300BCDEFF /* 5.png */,
+				57FBDC461467B23300BCDEFF /* 6.png */,
+				577BEA3F146BCE3D00360149 /* 7.png */,
+				5798DEDF146DBCEB0040657A /* bonusball1.png */,
+				57F25239148DBEDA00CD9507 /* bonusball2.png */,
+				57BB6F7614643A3B00D789A5 /* background.png */,
+				57BB6F6E146437E000D789A5 /* Splash.png */,
+				57BB6F3C1464378100D789A5 /* PMercurioFinalProject-Info.plist */,
+				57BB6F3D1464378100D789A5 /* InfoPlist.strings */,
+				57BB6F401464378100D789A5 /* main.m */,
+				57BB6F421464378100D789A5 /* PMercurioFinalProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57BB6F5C1464378100D789A5 /* PMercurioFinalProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				57BB6F621464378100D789A5 /* PMercurioFinalProjectTests.h */,
+				57BB6F641464378100D789A5 /* PMercurioFinalProjectTests.m */,
+				57BB6F5D1464378100D789A5 /* Supporting Files */,
+			);
+			path = PMercurioFinalProjectTests;
+			sourceTree = "<group>";
+		};
+		57BB6F5D1464378100D789A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57BB6F5E1464378100D789A5 /* PMercurioFinalProjectTests-Info.plist */,
+				57BB6F5F1464378100D789A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57BB6F2F1464378100D789A5 /* PMercurioFinalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57BB6F681464378100D789A5 /* Build configuration list for PBXNativeTarget "PMercurioFinalProject" */;
+			buildPhases = (
+				57BB6F2C1464378100D789A5 /* Sources */,
+				57BB6F2D1464378100D789A5 /* Frameworks */,
+				57BB6F2E1464378100D789A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PMercurioFinalProject;
+			productName = PMercurioFinalProject;
+			productReference = 57BB6F301464378100D789A5 /* PMercurioFinalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57BB6F531464378100D789A5 /* PMercurioFinalProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57BB6F6B1464378100D789A5 /* Build configuration list for PBXNativeTarget "PMercurioFinalProjectTests" */;
+			buildPhases = (
+				57BB6F4F1464378100D789A5 /* Sources */,
+				57BB6F501464378100D789A5 /* Frameworks */,
+				57BB6F511464378100D789A5 /* Resources */,
+				57BB6F521464378100D789A5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57BB6F5B1464378100D789A5 /* PBXTargetDependency */,
+			);
+			name = PMercurioFinalProjectTests;
+			productName = PMercurioFinalProjectTests;
+			productReference = 57BB6F541464378100D789A5 /* PMercurioFinalProjectTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57BB6F271464378100D789A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = SBHS;
+			};
+			buildConfigurationList = 57BB6F2A1464378100D789A5 /* Build configuration list for PBXProject "PMercurioFinalProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57BB6F251464378100D789A5;
+			productRefGroup = 57BB6F311464378100D789A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57BB6F2F1464378100D789A5 /* PMercurioFinalProject */,
+				57BB6F531464378100D789A5 /* PMercurioFinalProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57BB6F2E1464378100D789A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BB6F3F1464378100D789A5 /* InfoPlist.strings in Resources */,
+				57BB6F481464378100D789A5 /* MainWindow.xib in Resources */,
+				57BB6F4E1464378100D789A5 /* PMercurioFinalProjectViewController.xib in Resources */,
+				57BB6F6F146437E000D789A5 /* Splash.png in Resources */,
+				57BB6F71146437F800D789A5 /* Default@2x.png in Resources */,
+				57BB6F7714643A3B00D789A5 /* background.png in Resources */,
+				57BB6F81146461F200D789A5 /* icon_retina.png in Resources */,
+				57BB6F831464620B00D789A5 /* icon.png in Resources */,
+				57BB6F871464628D00D789A5 /* Default.png in Resources */,
+				57FBDC411467ADB900BCDEFF /* 1.png in Resources */,
+				57FBDC471467B23300BCDEFF /* 2.png in Resources */,
+				57FBDC481467B23300BCDEFF /* 3.png in Resources */,
+				57FBDC491467B23300BCDEFF /* 4.png in Resources */,
+				57FBDC4A1467B23300BCDEFF /* 5.png in Resources */,
+				57FBDC4B1467B23300BCDEFF /* 6.png in Resources */,
+				577BEA40146BCE3D00360149 /* 7.png in Resources */,
+				5718F623146CA1B50027D0B2 /* doh1.mp3 in Resources */,
+				5798DEDE146D9B7E0040657A /* fingerPrint.png in Resources */,
+				5798DEE0146DBCEB0040657A /* bonusball1.png in Resources */,
+				5798DEE3146DE5400040657A /* Cash.wav in Resources */,
+				57F2523A148DBEDA00CD9507 /* bonusball2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BB6F511464378100D789A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BB6F611464378100D789A5 /* InfoPlist.strings in Resources */,
+				57BB6F631464378100D789A5 /* PMercurioFinalProjectTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57BB6F521464378100D789A5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57BB6F2C1464378100D789A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BB6F411464378100D789A5 /* main.m in Sources */,
+				57BB6F451464378100D789A5 /* PMercurioFinalProjectAppDelegate.m in Sources */,
+				57D7C721146CF34B0040E7C1 /* PMercurioFinalProjectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BB6F4F1464378100D789A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BB6F651464378100D789A5 /* PMercurioFinalProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57BB6F5B1464378100D789A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57BB6F2F1464378100D789A5 /* PMercurioFinalProject */;
+			targetProxy = 57BB6F5A1464378100D789A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57BB6F3D1464378100D789A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BB6F3E1464378100D789A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57BB6F461464378100D789A5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BB6F471464378100D789A5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		57BB6F4C1464378100D789A5 /* PMercurioFinalProjectViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BB6F4D1464378100D789A5 /* en */,
+			);
+			name = PMercurioFinalProjectViewController.xib;
+			sourceTree = "<group>";
+		};
+		57BB6F5F1464378100D789A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BB6F601464378100D789A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57BB6F661464378100D789A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57BB6F671464378100D789A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57BB6F691464378100D789A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMercurioFinalProject/PMercurioFinalProject-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "PMercurioFinalProject/PMercurioFinalProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57BB6F6A1464378100D789A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMercurioFinalProject/PMercurioFinalProject-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "PMercurioFinalProject/PMercurioFinalProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		57BB6F6C1464378100D789A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PMercurioFinalProject.app/PMercurioFinalProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMercurioFinalProject/PMercurioFinalProject-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "PMercurioFinalProjectTests/PMercurioFinalProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		57BB6F6D1464378100D789A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PMercurioFinalProject.app/PMercurioFinalProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMercurioFinalProject/PMercurioFinalProject-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "PMercurioFinalProjectTests/PMercurioFinalProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57BB6F2A1464378100D789A5 /* Build configuration list for PBXProject "PMercurioFinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BB6F661464378100D789A5 /* Debug */,
+				57BB6F671464378100D789A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BB6F681464378100D789A5 /* Build configuration list for PBXNativeTarget "PMercurioFinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BB6F691464378100D789A5 /* Debug */,
+				57BB6F6A1464378100D789A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BB6F6B1464378100D789A5 /* Build configuration list for PBXNativeTarget "PMercurioFinalProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BB6F6C1464378100D789A5 /* Debug */,
+				57BB6F6D1464378100D789A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57BB6F271464378100D789A5 /* Project object */;
+}
